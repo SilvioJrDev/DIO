@@ -1,5 +1,5 @@
-//DIO
+#DIO
 
-/Projeto 01
+##Projeto 01
 
-/Criar página HTML apresentando elementos HTML com as próprias palavras.
+**Criar página HTML apresentando elementos HTML com as próprias palavras.**
