@@ -1,2 +1,5 @@
-DIO
-Repository to save projects created while studying at DIO
+//DIO
+
+/Projeto 01
+
+/Criar página HTML apresentando elementos HTML com as próprias palavras.
