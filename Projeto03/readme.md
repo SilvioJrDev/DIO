@@ -1,0 +1,2 @@
+Projeto para replicar a estrutura do WikiPedia, porém com um layout um pouco mais agradável.
+O objetivo era trocar tags menos semânticas por tags mais semânticas e adicionar recursos que facilitem a acessibilidade.
