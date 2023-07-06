@@ -1,0 +1,152 @@
+/*estrutura geral da página*/
+*
+{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: opx;
+}
+
+/*Estrutura principal da página, onde o body é o Flex-Container e o Header, Main e Footer são os Flex-Itens*/
+
+/*Container*/
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Itens*/
+
+header
+{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+main
+{
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+footer
+{
+    display: flex;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+/*Estruturas secundárias da página, camadas dentro dos itens da estrutura primária. Vou organizar como um índice:
+
+01 - Header
+    01.1 - figure
+    01.1.1 - logo
+    01.2 - Titulo-Principal
+    01.2.1 - h1
+02 - Main
+    02.1 - nav
+    02.2 - article
+    02.3 - aside
+03 - Footer
+    03.1 - mapa
+    03.2 - endereco
+    03.3 - horario
+*/
+
+/*Container - Header(Css configurado na estrutura primária*/
+
+/*Itens*/
+
+figure
+{
+    width: 20%;
+    height: inherit;
+    background-color: black;
+}
+    .logo
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+.Titulo-Principal
+{
+    background-color: black;
+    color: #efe634;
+    width: 80%;
+    padding: 130px;
+}
+    h1
+    {
+        text-align: center;
+    }
+
+/*Container - Main(Css configurado na estrutura primária*/
+
+/*Itens*/
+
+nav
+{
+    border-style: solid;
+    border-color: black;
+    width: 15%;
+}
+
+article
+{
+    border-style: solid;
+    border-color: black;
+    width: 65%;
+}
+
+aside
+{
+    border-style: solid;
+    border-color: black;
+    width: 20%;
+}
+
+/*Container - Footer(Css configurado na estrutura primária*/
+
+/*Itens*/
+
+.mapa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: inherit;
+}
+
+    iframe
+    {
+        height: 95%;
+        width: 95%;      
+    }
+
+.endereço
+{
+    display: flex; /*Aqui definimos a div endereco como container e as tags dentro da div como flex-itens como terceiro nível da estrutura*/
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding-left: 20px ;
+}
+
+.horario
+{
+    display: flex; /*Aqui definimos a div horario como container e as tags dentro da div como flex-itens como terceiro nível da estrutura*/
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+    li
+    {
+        list-style-type: none;  
+    }
