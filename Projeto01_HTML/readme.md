@@ -1,5 +1,3 @@
-#DIO
+# Primeiro projeto do curso de HTML da DIO.
 
-##Projeto 01
-
-**Criar página HTML apresentando elementos HTML com as próprias palavras.**
+### Página apresentando elementos HTML com as minhas palavas.
