@@ -7,15 +7,5 @@
 body{
     display: flex;
     flex-direction: column;
-}
-
-header{
-    display: flex;
-    height: 56px;
     width: 100%;
-}
-
-.principal{
-    width: 952px;
-    height: 537px;
 }

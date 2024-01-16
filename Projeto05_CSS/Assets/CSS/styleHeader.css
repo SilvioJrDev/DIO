@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.header-left, .header-right{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    height: 3rem;
+}
+
+.header-left{
+    margin-left: 1rem;
+}
+
+.header-right{
+    margin-left: 1rem;
+}
+
+.header-left figure{
+    margin: 1rem 0.5rem;
+}
+
+.header-right figure{
+    margin: 1rem 0.5rem;
+}
