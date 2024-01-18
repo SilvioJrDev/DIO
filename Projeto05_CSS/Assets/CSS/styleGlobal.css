@@ -9,3 +9,13 @@ body{
     flex-direction: column;
     width: 100%;
 }
+
+.imgPerfil{
+    max-width: 30px;
+    border-radius: 50%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

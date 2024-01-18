@@ -1,3 +1,152 @@
-.principal{
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
     width: 100%;
+}
+
+section{
+    width: 70%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+}
+
+.principal{
+    height: 30rem;
+    margin: 0rem;
+}
+
+.principal iframe{
+    border-radius: 10px;
+}
+
+main section figure figcaption{
+    font-size: 1,25rem;
+    font-weight: 700;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.videoOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+#profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profileInformations h4, #profileInformations p{
+    margin: 0rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+#profileInformations h4{
+    margin-bottom: 2px;
+}
+
+.btnInscrevaSe {
+    background-color: #CC0000;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    width: 159px;
+    height: 40px;
+    padding: 1rem 1rem 1rem 0.5rem;
+    font-size: 0.75rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #fff;
+}
+
+#like{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#like img, #like h4{
+    padding: 0.25rem;
+}
+
+#hate{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hate img, #hate h4{
+    padding: 0.25rem;
+}
+
+#share{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#share img, #share h4{
+    padding: 0.25rem;
+}
+
+#down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#down img, #down h4{
+    padding: 0.25rem;
+}
+
+aside{
+    width: 30%;
+}
+
+.play{
+    display: flex;
+    flex-direction: row;
+}
+
+.playImg{
+    width: 55%;
+}
+
+.playDescriptions{
+    width: 45%;
+    margin-top: 1rem;
+}
+
+aside > a > div > div:nth-child(1) > figure{
+    margin: 1rem 0rem 0.5rem 0rem;
+}
+
+.playImg img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.playDescriptions h4{
+    font-size: 0.95rem;
+    font-size: 'Roboto';
+    font-weight: 600;
+    margin: 0.25rem 0.25rem 1rem 1rem;
+}
+
+.playDescriptions p{
+    font-size: 0.6rem;
+    font-size: 'Roboto';
+    font-weight: 400;
+    margin: 0.25rem 0.25rem 0.5rem 1rem;
 }

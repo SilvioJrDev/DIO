@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!--Link Figma: https://www.figma.com/file/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?type=design&node-id=0-1&mode=design&t=8cmROiUSqXcrr6Rf-0-->
-<!--Link Figma: https://www.figma.com/file/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?type=design&node-id=0-1&mode=design&t=8cmROiUSqXcrr6Rf-0-->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./Assets/CSS/styleGlobal.css">
     <link rel="stylesheet" href="./Assets/CSS/styleHeader.css">
+    <link rel="stylesheet" href="./Assets/CSS/styleMain.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -33,27 +35,154 @@
             <img src="./Assets/Images/bell.png">
         </figure>
         <figure>
-            <img src="./Assets/Images/Avatar.png">
+            <img class="imgPerfil" src="./Assets/Images/Channel Avatar.png">
         </figure>
     </div>
-
 </header>
 <main>
     <section>
         <figure class="principal">
             <iframe 
                 width="100%"
-                height="100%" 
-                src="https://www.youtube.com/embed/rZlUlSdQgeU" 
-                title="YouTube video player" 
+                height="100%"
+                src="https://www.youtube.com/embed/g7i31kTXQsk" 
+                title="Sejam bem vindos!" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 allowfullscreen>
-            </iframe>
+        </iframe>
         </figure>
+        <div class="videoOptions" >
+            <div id="profile">
+                <div id="profileImg">
+                    <img class="imgPerfil" src="./Assets/Images/Channel Avatar.png"/>
+                </div>
+                <div id="profileInformations">
+                    <h4>Silvio de Andrade Jr</h4>
+                    <p>87,2 mil inscritos</p>
+                </div>
+            </div>
+            <div>
+                <input type="button" value="INSCREVA-SE" class="btnInscrevaSe"/>
+            </div>
+            <div id="like">
+                <img src="./Assets/Images/thumbs-up.png"/>
+                <h4>16 mil</h4>
+            </div>
+            <div id="hate">
+                <img src="./Assets/Images/thumbs-down.png"/>
+                <h4>Não Gostei</h4>
+            </div>
+            <div id="share">
+                <img src="./Assets/Images/share-2.png"/>
+                <h4>Compartilhar</h4>            
+            </div>
+            <div id="down">
+                <img src="./Assets/Images/download.png"/>
+                <h4>Download</h4>            
+            </div>
+        </div>
+        <h4>47.500 visualizações Transmitido ao vivo em 16/01/2024</h4>
+        <p>É prático. É fluído. É conectado. É Zeev.<br>
+            Uma ferramenta moderna que vai fazer a sua empresa decolar.<br>
+            Padronizando o fluxo de trabalho das equipes e eliminando desperdícios.<br>
+            Fale com a gente: https://bit.ly/vamosconversaryoutube<br>
+            Zeev | Você cresce, a gente cresce</p>
     </section>
-    <aside></aside>
-    <h1>teste</h1>
+    <aside>
+        <a rel="link" href="https://www.youtube.com/watch?v=60FqxnG4gFE&t=2s" target="_blank"><div class="play">
+            <div class="playImg">
+                <figure>
+                    <img src="./Assets/Images/video01.png"/>
+                </figure>
+            </div>
+            <div class="playDescriptions">
+                <h4>01 - Desenhando o Fluxograma do Processo</h4>
+                <p>Silvio de Andrade Jr</p>
+                <p>18 mil visualizações</p>
+                <p>Transmitido a 3 dias</p>
+            </div>
+        </div></a>
+        <a rel="link" href="https://www.youtube.com/watch?v=60FqxnG4gFE&t=2s" target="_blank"><div class="play">
+            <div class="playImg">
+                <figure>
+                    <img src="./Assets/Images/video02.png"/>
+                </figure>
+            </div>
+            <div class="playDescriptions">
+                <h4>02 - Construindo o Formulário</h4>
+                <p>Silvio de Andrade Jr</p>
+                <p>18 mil visualizações</p>      
+                <p>Transmitido a 3 dias</p>
+            </p>
+            </div>
+        </div></a>
+        <a rel="link" href="https://www.youtube.com/watch?v=60FqxnG4gFE&t=2s" target="_blank"><div class="play">
+            <div class="playImg">
+                <figure>
+                    <img src="./Assets/Images/video03.png"/>
+                </figure>
+            </div>
+            <div class="playDescriptions">
+                <h4>03 - Configurando os Elementos</h4>
+                <p>Silvio de Andrade Jr</p>
+                <p>18 mil visualizações</p>      
+                <p>Transmitido a 3 dias</p>
+            </div>
+        </div></a>
+        <a rel="link" href="https://www.youtube.com/watch?v=60FqxnG4gFE&t=2s" target="_blank"><div class="play">
+            <div class="playImg">
+                <figure>
+                    <img src="./Assets/Images/video04.png"/>
+                </figure>
+            </div>
+            <div class="playDescriptions">
+                <h4>04 - Configurando a Integração para Geração de Documento</h4>
+                <p>Silvio de Andrade Jr</p>
+                <p>18 mil visualizações</p>      
+                <p>Transmitido a 3 dias</p>
+            </div>
+        </div></a>
+        <a rel="link" href="https://www.youtube.com/watch?v=60FqxnG4gFE&t=2s" target="_blank"><div class="play">
+            <div class="playImg">
+                <figure>
+                    <img src="./Assets/Images/video05.png"/>
+                </figure>
+            </div>
+            <div class="playDescriptions">
+                <h4>05 - Configurando o Documento Modelo</h4>
+                <p>Silvio de Andrade Jr</p>
+                <p>18 mil visualizações</p>      
+                <p>Transmitido a 3 dias</p>
+            </div>
+        </div></a>
+        <a rel="link" href="https://www.youtube.com/watch?v=60FqxnG4gFE&t=2s" target="_blank"><div class="play">
+            <div class="playImg">
+                <figure>
+                    <img src="./Assets/Images/video06.png"/>
+                </figure>
+            </div>
+            <div class="playDescriptions">
+                <h4>06 - Ajustes nas configurações</h4>
+                <p>Silvio de Andrade Jr</p>
+                <p>18 mil visualizações</p>      
+                <p>Transmitido a 3 dias</p>
+            </div>
+        </div></a>
+        <a rel="link" href="https://www.youtube.com/watch?v=60FqxnG4gFE&t=2s" target="_blank"><div class="play">
+            <div class="playImg">
+                <figure>
+                    <img src="./Assets/Images/video07.png"/>
+                </figure>
+            </div>
+            <div class="playDescriptions">
+                <h4>07 - Configurando o Gateway e Realizando a Publicação do Aplicativo</h4>
+                <p>Silvio de Andrade Jr</p>
+                <p>18 mil visualizações</p>      
+                <p>Transmitido a 3 dias</p>
+            </div>
+        </div></a>
+    </aside>
 </main>
 <footer>
     <h1>teste</h1>
