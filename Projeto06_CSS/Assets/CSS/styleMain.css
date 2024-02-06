@@ -1,0 +1,7 @@
+main {
+    display: grid;
+    grid-template-columns: 19vw 79vw ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0em;
+    padding: 0em;
+}

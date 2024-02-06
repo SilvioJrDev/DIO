@@ -1,0 +1,20 @@
+aside {
+    grid-column: 1;
+    grid-row: span 3;
+    padding: 1em;
+}
+
+.menu-link{
+    display: table;
+    text-decoration: none;
+}
+
+.menu-option {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu-icon{
+    vertical-align: middle;
+    margin: 0.25rem 1rem 0.5rem 0rem;
+}

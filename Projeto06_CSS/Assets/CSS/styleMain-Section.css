@@ -1,0 +1,64 @@
+section {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 1em 0 0 0;
+    max-height: 350px;
+}
+
+.play {
+    max-width: 300px;
+    display: inline-block;
+    white-space: normal;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.play a{
+    max-width: 300px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.play a .playImg{
+    max-width: 300px;
+    margin: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.play a .playImg figure{
+    max-width: 300px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.play a .playImg figure img{
+    max-width: 300px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.playDescriptions{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin: 0px;
+}
+
+.playDescriptions figure{
+    margin: 10px;
+    width: 10px;
+}
+
+.playDescriptions h4{
+    font-size: 0.95rem;
+    font-size: 'Roboto';
+    font-weight: 600;
+    margin: 0.25rem 0.25rem 1rem 2rem;
+}
+
+.playDescriptions p{
+    font-size: 0.6rem;
+    font-size: 'Roboto';
+    font-weight: 400;
+    margin: 0.25rem 0.25rem 0.5rem 2rem;
+}
