@@ -1,0 +1,100 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#primeiro h2, #segundo h2, #terceiro h2, .descricoes{
+    margin: 0rem 0rem 2rem 2rem;
+    padding: 0rem 3rem 0rem 0rem;
+    color: #23272A;
+}
+
+#primeiro h2, #segundo h2, #terceiro h2{
+    font-family: 'Open Sans';
+    font-weight: 800;
+}
+
+.descricoes{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+#segundo{
+    background-color: #F6F6F6 ;
+}
+
+#quarto{
+    background-color: #F6F6F6 ;
+}
+
+#quarto h1{
+    margin: 5rem 0rem 2rem 2rem;
+    padding: 0rem 3rem 0rem 0rem;
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+    #primeiro, #segundo, #terceiro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center; /* Adicionado para centralizar verticalmente */
+    }
+    #primeiro figure, #terceiro figure{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        justify-content: end;    
+    }
+    #primeiro .right-content, #terceiro .right-content {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        justify-content: start; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        max-width: 350px;
+        padding-right: 0px;
+    }
+    #segundo figure{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        justify-content: start;    
+    }
+    #segundo .left-content {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        justify-self: end;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        align-content: center;
+        justify-content: center;
+        max-width: 350px;
+    }
+    #segundo h2, #segundo p{
+        text-align: left;
+    }
+    #quarto h1, #quarto p{
+        align-content: center;
+        text-align: center;
+        max-width: 550px;
+    }
+    #quarto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Ajuste conforme necessário */
+    }
+    .center-content {
+        /* Seu conteúdo aqui */
+    }
+    
+}
