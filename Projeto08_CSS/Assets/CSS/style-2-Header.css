@@ -87,3 +87,12 @@
     font-size: 2rem;
     font-weight: 500;
   }
+
+  /* Media Queries */
+
+@media screen and (max-width: 480px) {
+
+    .header {
+      margin-top: 128px !important;
+    }
+  }

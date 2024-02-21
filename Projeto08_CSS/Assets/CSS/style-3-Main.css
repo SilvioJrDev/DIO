@@ -267,3 +267,12 @@ section {
     transform: rotate(0);
   }
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+    section {
+      scroll-margin-top: 120px;
+    }
+  
+  }

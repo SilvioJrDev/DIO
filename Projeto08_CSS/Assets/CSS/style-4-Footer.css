@@ -29,3 +29,12 @@
     gap: 40px;
     margin-top: 80px;
   }
+
+  /* Media Queries */
+
+@media screen and (max-width: 480px) {
+    .footer__link {
+        display: block;
+        margin-bottom: 16px;
+    }
+}

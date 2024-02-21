@@ -39,3 +39,23 @@
     background-color: var(--btn-link-bg-color);
     color: var(--btn-link-color);
   }
+
+  /* Media Queries */
+
+  @media screen and (max-width: 480px) {
+  
+    .menu {
+      padding: 32px 24px;
+      flex-direction: column;
+      gap: 24px;
+    }
+  
+    .menu__logo {
+      max-width: 100px;
+    }
+  
+    .menu__item--button {
+      margin: 0;
+    }
+  
+  }
